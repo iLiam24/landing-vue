@@ -1,9 +1,12 @@
 <template>
- <button class="btn">Click here</button>
+ <button class="btn" :class="`${color}`">{{ label }}</button>
 </template>
 
 <script lang="ts" setup>
-
+defineProps<{
+    label: string;
+    color: string;
+}>();
 </script>
 
 <style lang="scss" scoped>
@@ -12,7 +15,12 @@
     background-color: blue;
     color: white;
     box-shadow: none;
-    width: 30px;
     padding: 15px 30px;
+    &.red {
+        background-color: red;
+    }
+    &.blue {
+        background-color: blue;
+    }
 }
 </style>

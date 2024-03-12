@@ -7,6 +7,7 @@ import ProjetSectionComponent from './components/ProjetSectionComponent.vue';
 import SimplifySectionComponent from './components/SimplifySectionComponent.vue';
 import CardSectionComponent from './components/CardSectionComponent.vue';
 import FooterComponent from './components/FooterComponent.vue';
+import ButtonComponent from './components/ButtonComponent.vue';
 </script>
 
 <template>
@@ -17,6 +18,8 @@ import FooterComponent from './components/FooterComponent.vue';
 <SimplifySectionComponent/>
 <CardSectionComponent/>
 <FooterComponent/>
+<ButtonComponent label="Bouton" color="red"/>
+<ButtonComponent label="OUA" color="blue"/>
 
 
 </template>
