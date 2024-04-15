@@ -18,8 +18,8 @@ import ButtonComponent from './components/ButtonComponent.vue';
 <SimplifySectionComponent/>
 <CardSectionComponent/>
 <FooterComponent/>
-<ButtonComponent label="Bouton" color="red"/>
-<ButtonComponent label="OUA" color="blue"/>
+<!-- <ButtonComponent label="Bouton" color="red"/>
+<ButtonComponent label="OUA" color="blue"/> -->
 
 
 </template>
